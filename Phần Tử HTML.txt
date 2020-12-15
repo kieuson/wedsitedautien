@@ -1,0 +1,144 @@
+<a> +<thuộc tính>dowload - <giá trị> file nam (  Giúp người dùng dowload xuống khi nhấn vào >
+
+<a> + href - URL(LINK liên kết ) ( chỉ định URL của trang liên kết chuyển đến > 
+
+<a> + langhref - language_code ( chỉ định ngôn ngữ của trang được liên kết >
+
+<a> + media - media_query ( Chỉ Định Phương Tiên / Thiết Bị được liên kết tài này đã được tối ưu hóa >
+
+<ul> khi trong <ul> có <li>(list) -( những danh sách liệt kê ra sẽ có gạch đầu dòng )
+
+<tr> trong <tr> chứa một hoặc nhiều phần tử <th> <td>
+
+<th> Định Nghĩa 1 ô tiêu đề trong bảng HTML
+
+<td> là 1 con của <th> chúng được tạo ra sau phần tử <th>
+
+<time> xác định một thời điểm cụ thể 
+
+<datetime> huộc tính của nguyên tố này được sử dụng dịch thời gian sang một định dạng máy có thể đọc để trình duyệt có thể cung cấp thêm lời nhắc ngày qua lịch của người dùng, và công cụ tìm kiếm thông minh hơn có thể sản xuất các kết quả tìm kiếm.
+
+<u> dùng để gạch chân comment phái sau VD : <u>Kiều Ngọc Sơn </u>
+
+<b> Xác đình đoạn Văn bản sau <b> sẽ được in đậm
+
+<i> Xác định đoạn văn bản sau <i> sẽ được in nghiêng
+
+<p> comment đoạn văn bản có thể kết hợp với rất nhiều như style , color...
+
+<p style="text-align:right">  - (text-align:right) -> căn chỉnh 
+
+<html> Là thư mục gốc chứa tất cả phần tử html khác ( trừ <DOCTYPE>Tag )- lưu ý <html> +lang "language của wed ", giúp hỗ trợ tìm kiếm và trình duyệt
+
+<h1-h6> Chứ To nhỏ từ h1 ->h6
+
+<hr> Gạch chân dài 
+<q> VD : <q>Kiều Ngọc Sơn</q> -> "Kiều Ngọc Sơn"
+
+<li> (list ) -> Liệt kê - Khi kết hợp với <ul> Có đấu chấm ở đầu , với <ol> đánh theo số thứ tự 
+<li> trong <li>
+VD : <ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>                              
+      <li>Green tea
+        <ul>
+          <li>China</li>
+          <li>Africa</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+Hiển Thị :      .Coffee
+		.Tea
+			.Black tea
+			.Green tea
+				.China
+				.Africa
+		.Milk
+
+<header> chứa nội dụng giới thiệu hoặc một tập hợp các phần tử thường chứa
+lưu ý : trong HTML chứa nhiều header . nhưng header không thể đặt trong footer, address , hoặc trong header khác 
+VD : <header> <meta charset="UTF-8">
+        <title>WEDSITE KNS</title>
+        <meta name="KNS" content="KNS, CACK, TM20010"> 
+
+<iframe> xác định một nội tuyến. Khung nội tuyến được sử dụng để nhúng tài liệu khác vào tài liệu HTML hiện tại.
+VD kết hợ : < iframe src ,< iframe name ,< iframe srcdoc....
+
+<main> Nội dung bên trong <main>phần tử phải là duy nhất cho tài liệu. 
+Nó không được chứa bất kỳ nội dung nào được lặp lại trên các tài liệu như thanh bên, liên kết điều hướng, thông tin bản quyền, biểu trưng trang web và biểu mẫu tìm kiếm.
+Lưu ý: Không được có nhiều hơn một <main>phần tử trong một tài liệu. 
+Phần <main>tử KHÔNG được là con của phần tử <article>, <aside>, <footer>, <header> hoặc <nav>.
+
+
+<link> VD: <link rel="stylesheet" href="styles.css">
++ <link> sẽ được định nghĩa giữa các tài liệu và 1 nguồn bên ngoài
++ <link> thường sẽ sử dụng để liên kết đến các style sheet bên ngoài
++ <link> là 1 phần tử trống , nó chỉ chứa các thuộc tính
+
+<mark> tô màu cho đoạn comment dau <mark>
+
+<meta> luôn đi trong <head> sử dụng mô tả trang, tìm kiếm từ khóa, cài đặt chế độ xem , thẻ meta xác định siêu dử liệu về 1 tài liệu HTML
+
+<s> VD : <s> Only 50 tickers left!</s> -> Only 50 tickers left! sẽ bị gạch ngang
+
+<style> thường đi với color tạo màu mình muốn chọn cho đoạn văn bản đó
+
+<img> VD : <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+alt - chỉ định văn bản thay thế cho hình ảnh 
+width + hetght -> kích thước của ảnh
+
+<dl>  Các <dt>thẻ được sử dụng kết hợp với <dl> là <dd>
+VD : <dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+Hiển thị : Coffee
+		Black hot drink
+	   Milk
+		White cold drink
+
++ <dt> + <dd> xem ví dụ trên <dl> 
+
+<div> tìm hiểu trên W3schools.com xem Ví dụ và đọc sẽ hiểu . Thẻ này không thể thiếu khi thiết kế wed
+
+<del> Các <del>thẻ định nghĩa văn bản đã bị xóa từ một tài liệu. Các trình duyệt thường sẽ gạch một dòng qua văn bản đã xóa.
++ thêm <ins> để đánh dấu văn bản được chèn sau <del>
+
+<body> chứa tất cả nội dung của tài liệu HTML, chẳng hạn như tiêu đề, đoạn văn, hình ảnh, siêu liên kết, bảng, danh sách, v.v.
++ Lưu ý: Chỉ có thể có một <body> phần tử trong tài liệu HTML
+
+<audio> được sử dụng nội dung âm thanh nhúng trong một tài liệu, chẳng hạn như âm nhạc hoặc các đoạn audio khác.
++ <audio> chứa một hoặc nhiều <source>thẻ với các nguồn âm thanh khác nhau. Trình duyệt sẽ chọn nguồn đầu tiên mà nó hỗ trợ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
