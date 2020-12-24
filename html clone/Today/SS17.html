@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    a {
+      cursor: move; /* change the look of the cursor when it is hovered */
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    div{
+      border-bottom: 1px solid #000;
+      margin: 10px;
+      padding-bottom: 10px;
+      width: 300px;
+    }
+    .title{
+      float: left;
+      width: 100px;
+    }
+    .radio-buttons label{
+      float: none;
+    }
+    .submit{
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <a href="https://ww.vnexpress.net">vnexpress news</a>
+  </p>
+  <form action="myshop.com" method="POST">
+    <div>
+      <label for="name" class="title">Name:</label>
+      <input type="text" id="name" name="name">
+    </div>
+
+    <div>
+      <label for="email" class="title">Email: </label>
+      <input type="email" name="email" id="email">
+    </div>
+
+    <div class="radio-buttons">
+      <span class="title">Gender: </span>
+      <input type="radio" name="gender" id="male" value="M">
+      <label for="male">M</label>
+      <input type="radio" name="gender" id="female" value="F">
+      <label for="female">F</label>
+    </div>
+
+    <div class="submit">
+      <input type="submit" value="Register" id="submit">
+    </div>
+  </form>
+</body>
+
+</html>

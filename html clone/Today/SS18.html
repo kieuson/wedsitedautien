@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+  }
+  input{ /* căn tất cả các input */
+    border-bottom: 1px dotted #000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 5px;
+    width: 280px;
+    margin-bottom: 20px;
+  }
+  input#submit{ /* căn riêng cái input với id submit */
+    color: #ffffff;
+    background-color: #665544;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    text-transform: uppercase;
+  }
+  input:focus{ /* khi input đc focus */
+    border: 1px dotted #dcdcdc;
+    outline: none;
+  }
+  input#submit:hover{ /* khi cái input submit đc trỏ chuột vào */
+    color: #665544;
+    background-color: #efefef;
+  }
+  fieldset{ /* căn chỉnh fieldset */
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+  }
+  legend{ /* căn chỉnh legend */
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  </style>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Newsletter</legend>
+      <label for="name">Name: </label>
+      <input type="text" name="" id="name">
+      <label for="email">Email: </label>
+      <input type="email" name="" id="email">
+
+      <input type="submit" value= "Subscribe" name="" id="submit">
+    </fieldset>
+  </form>
+</body>
+
+</html>
